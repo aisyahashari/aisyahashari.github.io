@@ -1,0 +1,170 @@
+<html>
+<title> My Experience </title>
+
+<p align ="center"><font color="Darkblue" font size="10"> 
+&#128586; 𝐌𝐘 𝐄𝐱𝐩𝐞𝐫𝐢𝐞𝐧𝐜𝐞  &#128586;</P>
+</font>
+
+<body>
+<style>
+body{
+background-image:url('love.png');
+background-repeat:no-repeat;
+background-attachemnet: fixed; background-size:cover;}
+</style>
+
+<style>
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block ;
+  color: darkblue;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:#A9CCE3;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="index.html">Back</a></li>
+  <li><a href="My gallery.html">Next</a></li>
+</ul>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+.mySlides1, .mySlides2,{display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center"> 𝑴𝒖𝒍𝒕𝒊𝒑𝒍𝒆 𝒔𝒍𝒊𝒅𝒆𝒔𝒉𝒐𝒘 </h2>
+
+<p align="center">Click Here! <img src="arrow.gif" alt="arrow" style="width:48px;height:48px;"><a href="https://www.facebook.com/OLICOLLECTION.HQ/">
+OLI COLLECTION HQ </a></p>
+
+<p>SALES & MARKETING :</p>
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <img src="OLI.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <img src="Collection.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <embed src="fara.mp4" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<p>HUMAN RESOURCES INTERNSHIP:</p>
+
+<p align="center">Click Here! <img src="arrow.gif" alt="arrow" style="width:48px;height:48px;"><a href="https://m.newpages.com.my/en/company/265045/Jabatan_Tenaga_Kerja_Cawangan_Muar.html ">
+PEJABAT TENAGA KERJA MUAR,JOHOR</a></p>
+
+
+<p align="center"><Font face ="garamond" size="5"></p>
+<div class="slideshow-container">
+  <div class="mySlides2">
+    <img src="buruh.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="court.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides2">
+    <img src="familyday.jpeg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+</div>
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2",]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+
+
+
+</font>
+</body>
+</html>

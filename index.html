@@ -1,0 +1,97 @@
+<html> 
+<title> HOMEPAGE  </title>
+
+
+<body onload="startTime()">
+
+<h2>CLOCK</h2>
+
+<div id="txt"></div>
+
+<script>
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  let s = today.getSeconds();
+  m = checkTime(m);
+  s = checkTime(s);
+  document.getElementById('txt').innerHTML =  h + ":" + m + ":" + s;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+  return i;
+}
+</script>
+
+</body>
+<marquee direction="up"> <p align="center"><font color="#2C3E50" font size="10"> &#128519; ℍ𝔼𝕃𝕃𝕆 𝕎𝔼𝕃ℂ𝕆𝕄𝔼 𝕋𝕆 𝕄𝕐 𝕎𝔼𝔹𝕊𝕀𝕋𝔼 &#128519;
+</p>
+</marquee>
+</font>
+
+
+
+<style>
+body{
+background-image:url('clouds.gif');
+background-repeat:no-repeat;
+background-attachemnet: fixed; background-size:cover;}
+</style>
+
+
+<body>
+<p align="center"> <font color="#A93226" Size="5" > 𝐒𝐈𝐓𝐈 𝐍𝐔𝐑 𝐀𝐈𝐒𝐘𝐀𝐇 𝐁𝐈𝐍𝐓𝐈 𝐌𝐎𝐇𝐃 𝐀𝐒𝐇𝐀𝐑𝐈 (𝟐𝟎𝟐𝟐𝟐𝟔𝟑𝟑𝟓𝟐) </p>
+
+
+<style>
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: center;
+}
+
+li a {
+  display: block ;
+  color: darkblue;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:#A9CCE3;
+}
+</style>
+</head>
+</body>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="biodata.html">My Profile</a></li>
+  <li><a href="family.html">My Family</a></li>
+  <li><a href="education.html">My Education</a></li>
+  <li><a href="skills.html">My Skills</a></li>
+  <li><a href="experience.html">My Experience</a></li>
+  <li><a href="My gallery.html">My Gallery</a></li>
+</ul>
+
+
+<embed src="bohongi.mp4">
+
+
+</p>
+</font>
+
+</body>
+</html>

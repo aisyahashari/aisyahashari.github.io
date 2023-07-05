@@ -1,0 +1,218 @@
+<html>
+<title> MY FAMILY </title>
+
+<body>
+<style>
+body{
+background-image:url('sakura.jpeg');
+background-repeat:no-repeat;
+background-attachemnet: fixed; background-size:cover;}
+</style>
+
+<style>
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block ;
+  color: darkblue;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color:#A9CCE3;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="biodata.html">Back</a></li>
+  <li><a href="education.html">Next</a></li>
+</ul>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<h2>𝐀𝐮𝐭𝐨𝐦𝐚𝐭𝐢𝐜 𝐒𝐥𝐢𝐝𝐞𝐬𝐡𝐨𝐰</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Family.jpg" style="width:100%">
+  <div class="text">My Family At PantaiChaya Bulan</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Raya.jpeg" style="width:100%">
+  <div class="text">Raya 2022</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="avilion.jpeg" style="width:100%">
+  <div class="text">Avilion</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 4 seconds
+}
+</script>
+
+<p align="center"><embed src="avilion1.mp4" height="350" width="300" border="5"></a>
+</p>
+<p align="center"> <font face="Comic Sans MS" > VIDEO : MY FAMILY</p>
+
+<p align="center"><img src="mamaabah.JPG" height ="400" width="300" border="5">
+<P align ="center"><font face="Times New Romen"> ABAH </P>
+<p align="center"> <font face="Comic Sans MS" >ABAH : MOHD ASHARI BIN RUSLAN</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 64 Years old( Passed Away on 28/09/2023</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :KAPTEN TUDM (Airforce)</p>
+<<P align ="center"><font face="Times New Romen"> MAMA </P>
+<p align="center"> <font face="Comic Sans MS" >MAMA: RUSNAH BINTI AHMAD</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 63 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Housewife</p>
+
+<p align="center"><img src="EDDIN.JPG" height ="400" width="300" border="5"> 
+<P align ="center"><font face="Times New Romen"> ABANG EDDIN</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Muhammad Muhidden Bin Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 38 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Businessman</p>
+
+<p align ="center"><img src="CACA.JPG" height="350" width="350" border="5" >
+<P align ="center"><font face="Times New Romen"> ABANG CACA</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Muhammad Nasharuddin Bin Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 37 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Supervisor</p>
+
+<p align="center"><img src="AMIR.JPG" height="350" width="350" border="5">
+<P align ="center"><font face="Times New Romen"> ABANG AMIR</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Muhammad Amiruddin Bin Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 33 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Freelance Photographer</p>
+
+<p align="center"><img src="IWAN.JPG" height="350" width="350" border="5">
+<P align ="center"><font face="Times New Romen"> ABANG IWAN</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Muhammad Izuanuddin Bin Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 21 Years old (passed away on 02/12/2012) </p>
+
+<p align="center"><img src="SHAHRUL.JPG" height="400" width="350" border="5">
+<P align ="center"><font face="Times New Romen"> ABANG SHAHRUL</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Muhammad Shahruddin Bin Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 26 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Mechanist</p>
+
+<p align="center"><img src="ACA.JPG" height="400" width="350" border="5">
+<P align ="center"><font face="Times New Romen"> ME</P>
+<p align="center"> <font face="Comic Sans MS" >Name: Siti Nur Aisyah Binti Mohd Ashari</p>
+<p align="center"> <font face="Comic Sans MS" > Age : 24 Years old</p>
+<p align="center"> <font face="Comic Sans MS" > Occupation :Student </p>
+
+</body>
+</html> 
